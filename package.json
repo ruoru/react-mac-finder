@@ -1,0 +1,58 @@
+{
+  "name": "react-mac-finder",
+  "version": "0.0.0",
+  "description": "A picker of react component look like mac finder.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "npm run build && npm run dev",
+    "build": "npm run copyFiles && webpack --config ./build/webpack.config.js --env.env=dev --progress --profile --colors",
+    "dev": "webpack-dev-server --config ./build/webpack.config.js --env.env=dev",
+    "copyFiles": "rm -rf ./docs && mkdir ./docs && cp ./example/index.html ./docs",
+    "windows:prod": "npm run copyFilesInWindows && webpack --config ./build/webpack.config.js --env.env=prod --progress --profile --colors && webpack-dev-server --config ./build/webpack.config.js --env.env=prod",
+    "copyFilesInWindows": "rmdir /s/q dist && mkdir dist && xcopy public dist /s/q/f/h",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruoru/react-mac-finder.git"
+  },
+  "keywords": [
+    "react",
+    "finder",
+    "react-finder",
+    "react-mac-finder"
+  ],
+  "author": "ruoru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruoru/react-mac-finder/issues"
+  },
+  "homepage": "https://github.com/ruoru/react-mac-finder#readme",
+  "dependencies": {
+    "date-fns": "^1.29.0",
+    "fast-deep-equal": "^2.0.1",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "@babel/preset-react": "^7.0.0-beta.51",
+    "babel-loader": "^8.0.0-beta.4",
+    "babel-plugin-import": "^1.8.0",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^0.28.9",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.0",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^2.11.1"
+  }
+}

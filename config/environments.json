@@ -1,0 +1,47 @@
+{
+  "local": {
+    "key": "local",
+    "name": "local",
+    "NODE_ENV": "local",
+    "GATEWAY_ENV": "local",
+    "title": "本地环境",
+    "mixpanelToken": "",
+    "api": "//0.0.0.0:8000"
+  },
+  "dev": {
+    "key": "dev",
+    "name": "development",
+    "NODE_ENV": "development",
+    "GATEWAY_ENV": "development",
+    "title": "开发环境",
+    "mixpanelToken": "",
+    "api": "//0.0.0.0:8000"
+  },
+  "test": {
+    "key": "test",
+    "name": "testing",
+    "NODE_ENV": "testing",
+    "GATEWAY_ENV": "testing",
+    "title": "测试环境",
+    "mixpanelToken": "",
+    "api": "//0.0.0.0:8000"
+  },
+  "staging": {
+    "key": "staging",
+    "name": "staging",
+    "NODE_ENV": "staging",
+    "GATEWAY_ENV": "staging",
+    "title": "演示环境",
+    "mixpanelToken": "",
+    "api": "//0.0.0.0:8000"
+  },
+  "prod": {
+    "key": "prod",
+    "name": "production",
+    "NODE_ENV": "production",
+    "GATEWAY_ENV": "production",
+    "title": "生产环境",
+    "mixpanelToken": "",
+    "api": "//0.0.0.0:8000"
+  }
+}
