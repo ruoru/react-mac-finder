@@ -27,9 +27,9 @@ class FinderRow extends Component {
         {
           hasChild
             ? <>
-              <img src={`/${folder}`}></img>
+              <img src={`./${folder}`}></img>
               <span>{text}</span>
-              <img src={`/${arrowR}`}></img>
+              <img src={`./${arrowR}`}></img>
             </>
             : <span>{text}</span>
         }
