@@ -40,7 +40,7 @@ https://ruoru.github.io/react-mac-finder
 | dataKeys               | The alias of the data source key.                                                   | Object                                            | {text: 'text', value: 'value', disable: 'disable', child: 'child'}  |
 | defaultSelectIndexs    | The default selection index of data.                                                | Array                                             | -                                                                   |
 | selectIndexs           | Forces the selection of data. If `value` exists, `selectIndexs` fails.              | Array                                             | -                                                                   |
-| value                  | Forces select same value item of data.                                              | String | Number                                   | -                                                                   |
+| value                  | Forces select same value item of data.                                              | String \| Number                                   | -                                                                   |
 | onChange               | Callback method, each time you change the selected value will run of the method.    | Function (value, isEnd, selectIndexs)             | -                                                                   |
 | disabled               | ReadOnly the component value.                                                       | Bool                                              | false                                                               |
 

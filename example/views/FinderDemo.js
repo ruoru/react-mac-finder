@@ -115,9 +115,9 @@ class FinderDemo extends Component {
         </div>
 
         <ul className="value-list">
-          <li>selectIndexs: {selectIndexs.join(",")}</li>
+          <li>selectIndexs: {`[${selectIndexs.join(",")}]`}</li>
           <li>
-            value:
+            value：
             <input
               value={value}
               onChange={e => this.setState({ value: e.target.value })}
