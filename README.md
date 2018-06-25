@@ -32,14 +32,12 @@ https://ruoru.github.io/react-mac-finder
 
 ## Interface design
 
-### GroupPicker & CascadePicker
-
 | property name          | description                                                                         | type                                              | default                                                             |
 | ---------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------- |
-| data \*                | The data source of the Array selector.                                              | Array                                             | []                                                                  |
-| dataKeys               | The alias of the data source key.                                                   | Object                                            | {text: 'text', value: 'value', disable: 'disable', child: 'child'}  |
+| data \*                | The data of this component.                                                         | Array                                             | []                                                                  |
+| dataKeys               | The alias of the `data` key.                                                        | Object                                            | {text: 'text', value: 'value', disable: 'disable', child: 'child'}  |
 | defaultSelectIndexs    | The default selection index of data.                                                | Array                                             | -                                                                   |
-| selectIndexs           | Forces the selection of data. If `value` exists, `selectIndexs` fails.              | Array                                             | -                                                                   |
+| selectIndexs           | Forces the selection of data by index. If `value` exists, `selectIndexs` fails.     | Array                                             | -                                                                   |
 | value                  | Forces select same value item of data.                                              | String \| Number                                   | -                                                                   |
 | onChange               | Callback method, each time you change the selected value will run of the method.    | Function (value, isEnd, selectIndexs)             | -                                                                   |
 | disabled               | ReadOnly the component value.                                                       | Bool                                              | false                                                               |
