@@ -31,7 +31,7 @@ class FinderRow extends Component {
               <span>{text}</span>
               <img src={`./${arrowR}`}></img>
             </>
-            : <span>{text}</span>
+            : <span style={{width: '100%'}}>{text}</span>
         }
 
       </li>
