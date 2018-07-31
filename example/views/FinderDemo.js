@@ -95,7 +95,66 @@ class FinderDemo extends Component {
               value: "B13"
             }
           ]
-        }
+        },
+        {
+          text: "C1",
+          value: "C1",
+          child: [
+            {
+              text: "C11",
+              value: "C11",
+              child: [
+                {
+                  text: "C111",
+                  value: "C111"
+                },
+                {
+                  text: "C112",
+                  value: "C112"
+                },
+                {
+                  text: "C113",
+                  value: "C113"
+                },
+                {
+                  text: "C114",
+                  value: "C114"
+                },
+                {
+                  text: "C115",
+                  value: "C115"
+                },
+                {
+                  text: "C116",
+                  value: "C116"
+                }
+              ]
+            },
+            {
+              text: "C12",
+              value: "C12",
+              disable: true,
+              child: [
+                {
+                  text: "C121",
+                  value: "C121"
+                }
+              ],
+            },
+            {
+              text: "C13",
+              value: "C13"
+            },
+            {
+              text: "C14",
+              value: "C14"
+            },
+            {
+              text: "C15",
+              value: "C15"
+            }
+          ]
+        },
       ]
     };
   }
