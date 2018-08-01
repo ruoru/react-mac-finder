@@ -67,7 +67,7 @@ class FinderColumn extends Component {
             text={item.text}
             value={item.value}
             disable={item.disable}
-            hasChild={Array.isArray(item.child) && item.child.length > 0}
+            hasChild={Array.isArray(item.child)}
             onChange={this.onChange}
           />)
         }

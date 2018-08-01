@@ -110,7 +110,8 @@ class FinderDemo extends Component {
                 },
                 {
                   text: "C112",
-                  value: "C112"
+                  value: "C112",
+                  child: [],
                 },
                 {
                   text: "C113",
