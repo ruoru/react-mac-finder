@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
-import 'babel-polyfill';
+import '@babel/polyfill';
 
-import FinderDemo from './views/FinderDemo';
+import Finder from './Finder';
 
 render(
-  <FinderDemo />,
+  <Finder />,
   document.getElementById('root'),
 );

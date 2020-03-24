@@ -1,4 +1,4 @@
-import "./finder-demo.scss";
+import "./index.scss";
 import React, { Component } from "react";
 import { Finder } from "../../src";
 

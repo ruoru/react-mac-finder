@@ -1,6 +1,8 @@
-import './assets/index.scss';
-import Finder from './components/Finder';
+import "./assets/index.scss";
+import finder from "./components/Finder";
 
-export {
-  Finder,
+export const Finder = finder;
+
+export default {
+  Finder
 };

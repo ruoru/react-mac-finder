@@ -50,13 +50,13 @@ npm install --save react-mac-finder
 
 ## Example Code
 
-[FinderDemo demo code](./example/views/FinderDemo.js)
+[Finder demo code](./example/Finder/index.js)
 
 ```js
 import React, { Component } from "react";
 import { Finder } from "react-mac-finder";
 
-class FinderDemo extends Component {
+class Finder extends Component {
   constructor(props) {
     super(props);
 
@@ -243,7 +243,7 @@ class FinderDemo extends Component {
     );
   }
 }
-export default FinderDemo;
+export default Finder;
 ```
 
 ## Local development
