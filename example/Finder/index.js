@@ -1,6 +1,6 @@
 import "./index.scss";
 import React, { Component } from "react";
-import { Finder } from "../../src";
+import Finder from "../../src";
 
 class FinderDemo extends Component {
   constructor(props) {
@@ -111,7 +111,7 @@ class FinderDemo extends Component {
                 {
                   text: "C112",
                   value: "C112",
-                  child: [],
+                  child: []
                 },
                 {
                   text: "C113",
@@ -140,7 +140,7 @@ class FinderDemo extends Component {
                   text: "C121",
                   value: "C121"
                 }
-              ],
+              ]
             },
             {
               text: "C13",
@@ -155,7 +155,7 @@ class FinderDemo extends Component {
               value: "C15"
             }
           ]
-        },
+        }
       ]
     };
   }

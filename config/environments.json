@@ -26,8 +26,8 @@
     "mixpanelToken": "",
     "api": "//0.0.0.0:8000"
   },
-  "staging": {
-    "key": "staging",
+  "stag": {
+    "key": "stag",
     "name": "staging",
     "NODE_ENV": "staging",
     "GATEWAY_ENV": "staging",
